@@ -25,8 +25,12 @@ class MyFriendsTableViewController: UITableViewController, GADBannerViewDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         refreshData()
+        if AuthorizationViewController.userDefaults.bool(forKey: Constant.Key.firstDisplayFriends) == true {
+            showNewData()
+            AuthorizationViewController.userDefaults.set(false, forKey: Constant.Key.firstDisplayFriends)
+        }
         myFriends = GetFriends.getDataRealm()
         
         // BannerView
@@ -102,10 +106,10 @@ class MyFriendsTableViewController: UITableViewController, GADBannerViewDelegate
         bannerView.removeFromSuperview()
     }
     
-    // MARK: - Data to UserPhotoCollectionViewController
+    // MARK: - Data to UserViewController
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let destination = segue.destination as? UserPhotoCollectionViewController {
+        if let destination = segue.destination as? UserViewController {
             userID = myFriends![(tableView.indexPathForSelectedRow?.row)!].id
             destination.userID = self.userID
         }

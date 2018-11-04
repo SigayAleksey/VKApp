@@ -67,6 +67,8 @@ class AuthorizationViewController: UIViewController, VKSdkDelegate, VKSdkUIDeleg
             self.logStatusLabel.text = "Log ON"
             let token = VKSdk.accessToken().accessToken!
             AuthorizationViewController.userDefaults.set(token, forKey: Constant.Key.token)
+            AuthorizationViewController.userDefaults.set(true, forKey: Constant.Key.firstDisplayFriends)
+            AuthorizationViewController.userDefaults.set(true, forKey: Constant.Key.firstDisplayGroups)
             navigationController?.topViewController?.performSegue(withIdentifier: Constant.Segue.authorization, sender: self)
         } else {
             print("AuthorizationFinished: NO")
@@ -107,6 +109,8 @@ class AuthorizationViewController: UIViewController, VKSdkDelegate, VKSdkUIDeleg
         }
         // Очистка токена
         AuthorizationViewController.userDefaults.removeObject(forKey: Constant.Key.token)
+        AuthorizationViewController.userDefaults.removeObject(forKey: Constant.Key.firstDisplayFriends)
+        AuthorizationViewController.userDefaults.removeObject(forKey: Constant.Key.firstDisplayGroups)
     }
 
 }

@@ -20,8 +20,8 @@ struct Constant {
     struct Key {
         static let token =              "token"
         static let lastUpdate =         "lastUpdate"
-        static let firstViewFriends =   "firstViewFriends"
-        static let firstViewGroups =    "firstViewGroups"
+        static let firstDisplayFriends =   "firstDisplayFriends"
+        static let firstDisplayGroups =    "firstDisplayGroups"
     }
     
     struct Segue {

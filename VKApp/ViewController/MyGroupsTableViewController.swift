@@ -26,6 +26,10 @@ class MyGroupsTableViewController: UITableViewController {
         super.viewDidLoad()
 
         refreshData()
+        if AuthorizationViewController.userDefaults.bool(forKey: Constant.Key.firstDisplayGroups) == true {
+            showNewData()
+            AuthorizationViewController.userDefaults.set(false, forKey: Constant.Key.firstDisplayGroups)
+        }
         myGroups = GetGroups.getDataRealm()
         userID = Int(AuthorizationViewController.getUserId())
     }

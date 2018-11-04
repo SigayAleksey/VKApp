@@ -41,8 +41,7 @@
 		BB7AB0522058744C003CDAED /* VKFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7AB0512058744C003CDAED /* VKFriends.swift */; };
 		BB7AB054205874B4003CDAED /* VKUserPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7AB053205874B4003CDAED /* VKUserPhoto.swift */; };
 		BB7E36E7216567FA00BEFF5B /* GetNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7E36E6216567FA00BEFF5B /* GetNews.swift */; };
-		BB852A072045FB0F003C419C /* UserPhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB852A062045FB0F003C419C /* UserPhotoCollectionViewController.swift */; };
-		BB852A092045FB1B003C419C /* UserPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB852A082045FB1B003C419C /* UserPhotoCollectionViewCell.swift */; };
+		BB852A072045FB0F003C419C /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB852A062045FB0F003C419C /* UserViewController.swift */; };
 		BB875CCB20A88DC900DCFAA7 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB875CCA20A88DC900DCFAA7 /* PostViewController.swift */; };
 		BB875CCD20A88DF300DCFAA7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB875CCC20A88DF300DCFAA7 /* MapViewController.swift */; };
 		BB882985207122600004319C /* New.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB882984207122600004319C /* New.swift */; };
@@ -53,6 +52,7 @@
 		BB9084B720BF3680002ADA1B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9084B520BF3680002ADA1B /* MainInterface.storyboard */; };
 		BB9084B920BF3682002ADA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9084B820BF3682002ADA1B /* Assets.xcassets */; };
 		BB9084BD20BF3682002ADA1B /* VKAppMessage.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BB9084AF20BF3680002ADA1B /* VKAppMessage.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BB9B4BF8218DCA9E0036A7A9 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9B4BF7218DCA9E0036A7A9 /* GetData.swift */; };
 		BBBEE2D821677F6C00ADAB4A /* SendPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBEE2D721677F6C00ADAB4A /* SendPost.swift */; };
 		BBCCC7F72083CEBB00D2049D /* VKAllGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCCC7F62083CEBB00D2049D /* VKAllGroups.swift */; };
 		BBCCC7F92083D7B200D2049D /* AddGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCCC7F82083D7B200D2049D /* AddGroup.swift */; };
@@ -167,8 +167,7 @@
 		BB7AB0512058744C003CDAED /* VKFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKFriends.swift; sourceTree = "<group>"; };
 		BB7AB053205874B4003CDAED /* VKUserPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKUserPhoto.swift; sourceTree = "<group>"; };
 		BB7E36E6216567FA00BEFF5B /* GetNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNews.swift; sourceTree = "<group>"; };
-		BB852A062045FB0F003C419C /* UserPhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoCollectionViewController.swift; sourceTree = "<group>"; };
-		BB852A082045FB1B003C419C /* UserPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB852A062045FB0F003C419C /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		BB875CCA20A88DC900DCFAA7 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		BB875CCC20A88DF300DCFAA7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BB882984207122600004319C /* New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New.swift; sourceTree = "<group>"; };
@@ -180,6 +179,7 @@
 		BB9084B620BF3680002ADA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		BB9084B820BF3682002ADA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB9084BA20BF3682002ADA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9B4BF7218DCA9E0036A7A9 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
 		BBBEE2D721677F6C00ADAB4A /* SendPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendPost.swift; sourceTree = "<group>"; };
 		BBCCC7F62083CEBB00D2049D /* VKAllGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKAllGroups.swift; sourceTree = "<group>"; };
 		BBCCC7F82083D7B200D2049D /* AddGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroup.swift; sourceTree = "<group>"; };
@@ -260,6 +260,7 @@
 		BB159E43205686BF00D4B114 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				BB9B4BF7218DCA9E0036A7A9 /* GetData.swift */,
 				BB159E44205686D500D4B114 /* GetFriends.swift */,
 				BB159E48205686F200D4B114 /* GetUserPhoto.swift */,
 				BB159E46205686E400D4B114 /* GetGroups.swift */,
@@ -296,7 +297,7 @@
 			children = (
 				BB31CF0F201E2AD9000AE5D2 /* AuthorizationViewController.swift */,
 				BB31CF12201E2F41000AE5D2 /* MyFriendsTableViewController.swift */,
-				BB852A062045FB0F003C419C /* UserPhotoCollectionViewController.swift */,
+				BB852A062045FB0F003C419C /* UserViewController.swift */,
 				BB31CF17201E2F89000AE5D2 /* MyGroupsTableViewController.swift */,
 				BB31CF1E201E301F000AE5D2 /* AllGroupsTableViewController.swift */,
 				BB633DDF20682E0300740E09 /* NewsTableViewController.swift */,
@@ -310,7 +311,6 @@
 			isa = PBXGroup;
 			children = (
 				BB31CF14201E2F50000AE5D2 /* MyFriendsTableViewCell.swift */,
-				BB852A082045FB1B003C419C /* UserPhotoCollectionViewCell.swift */,
 				BB31CF19201E2F95000AE5D2 /* MyGroupsTableViewCell.swift */,
 				BB31CF1C201E300D000AE5D2 /* AllGroupsTableViewCell.swift */,
 				BB633DE120682EF000740E09 /* NewsTableViewCell.swift */,
@@ -684,7 +684,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB31CF10201E2AD9000AE5D2 /* AuthorizationViewController.swift in Sources */,
-				BB852A072045FB0F003C419C /* UserPhotoCollectionViewController.swift in Sources */,
+				BB852A072045FB0F003C419C /* UserViewController.swift in Sources */,
 				BBCCC7F72083CEBB00D2049D /* VKAllGroups.swift in Sources */,
 				BB31CF1F201E301F000AE5D2 /* AllGroupsTableViewController.swift in Sources */,
 				BB7E36E7216567FA00BEFF5B /* GetNews.swift in Sources */,
@@ -694,7 +694,6 @@
 				BB159E45205686D500D4B114 /* GetFriends.swift in Sources */,
 				BBED80F4202502DF004D7BBB /* Group.swift in Sources */,
 				BB7089F02166CB32002644EE /* VKPost.swift in Sources */,
-				BB852A092045FB1B003C419C /* UserPhotoCollectionViewCell.swift in Sources */,
 				BB462B102084DD36006840FF /* FBUserAddGroup.swift in Sources */,
 				BB8D9A1A2083BC7500918D26 /* GroupFilter.swift in Sources */,
 				BB31CF18201E2F89000AE5D2 /* MyGroupsTableViewController.swift in Sources */,
@@ -709,6 +708,7 @@
 				BB7AB054205874B4003CDAED /* VKUserPhoto.swift in Sources */,
 				BB875CCB20A88DC900DCFAA7 /* PostViewController.swift in Sources */,
 				BBCCC7FB2083DA6F00D2049D /* VKAddGroup.swift in Sources */,
+				BB9B4BF8218DCA9E0036A7A9 /* GetData.swift in Sources */,
 				BB882985207122600004319C /* New.swift in Sources */,
 				BB31CF1A201E2F95000AE5D2 /* MyGroupsTableViewCell.swift in Sources */,
 				BB41BCAC207B788A009E971D /* GetFrameNews.swift in Sources */,
