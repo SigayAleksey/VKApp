@@ -1,0 +1,6 @@
+framework module Pods_VKAppUITests {
+  umbrella header "Pods-VKAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
