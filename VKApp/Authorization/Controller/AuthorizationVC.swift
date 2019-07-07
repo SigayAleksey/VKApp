@@ -105,25 +105,6 @@ class AuthorizationVC: UIViewController, VKSdkDelegate, VKSdkUIDelegate {
         AuthorizationViewController.userDefaults.removeObject(forKey: Constant.Key.firstDisplayFriends)
         AuthorizationViewController.userDefaults.removeObject(forKey: Constant.Key.firstDisplayGroups)
     }
-    
-    
-    
-    
-    
-    
-    
-
-    func vkSdkNeedCaptchaEnter(_ captchaError: VKError!) {
-        <#code#>
-    }
-    
-    func vkSdkAccessAuthorizationFinished(with result: VKAuthorizationResult!) {
-        <#code#>
-    }
-    
-    func vkSdkUserAuthorizationFailed() {
-        <#code#>
-    }
 
 
 }

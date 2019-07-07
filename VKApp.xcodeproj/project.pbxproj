@@ -64,7 +64,6 @@
 		C3B2113F2225D33700922463 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B2113E2225D33700922463 /* NetworkService.swift */; };
 		C3B211412225D34300922463 /* RequestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B211402225D34300922463 /* RequestRouter.swift */; };
 		C3B211442225EF6B00922463 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B211432225EF6B00922463 /* Configuration.swift */; };
-		C3B211462225F08B00922463 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3B211452225F08B00922463 /* Default-568h@2x.png */; };
 		D2D795F3CBA98BD97657DB68 /* Pods_VKAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93546A4CFA8614142CAF359D /* Pods_VKAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -181,7 +180,6 @@
 		C3B2113E2225D33700922463 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		C3B211402225D34300922463 /* RequestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestRouter.swift; sourceTree = "<group>"; };
 		C3B211432225EF6B00922463 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		C3B211452225F08B00922463 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D451237A11916A3BA392DD3E /* Pods_VKAppWatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKAppWatch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81232A1CDBC24F234D382B0 /* Pods-VKAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKAppUITests/Pods-VKAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAE2CEDAB6B596DF7D5A12CF /* Pods-VKApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKApp/Pods-VKApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -319,7 +317,6 @@
 		BB31CED5201E2843000AE5D2 = {
 			isa = PBXGroup;
 			children = (
-				C3B211452225F08B00922463 /* Default-568h@2x.png */,
 				BB31CEE0201E2843000AE5D2 /* VKApp */,
 				BB31CEF5201E2843000AE5D2 /* VKAppTests */,
 				BB31CF00201E2844000AE5D2 /* VKAppUITests */,
@@ -592,7 +589,6 @@
 				C330D75D22272C7A00470540 /* AuthorizationVC.storyboard in Resources */,
 				BB462B0E2084C1E0006840FF /* GoogleService-Info.plist in Resources */,
 				BB31CEE9201E2843000AE5D2 /* Assets.xcassets in Resources */,
-				C3B211462225F08B00922463 /* Default-568h@2x.png in Resources */,
 				BB31CEE7201E2843000AE5D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
